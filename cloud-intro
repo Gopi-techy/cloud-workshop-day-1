@@ -1,0 +1,129 @@
+Introduction to Cloud Computing
+What is Cloud Computing?
+Cloud computing refers to the on-demand delivery of computing services like databases, storage, applications, and other IT resources over the internet with a pay-as-you-go pricing model.
+
+Cloud Service Models:
+IAAS (Infrastructure as a Service): Offers virtualized machines and servers to host a wide range of applications.
+
+Example: Azure Virtual Machines
+
+SAAS (Software as a Service): Delivers software applications over the internet, eliminating the need for local installations.
+
+Example: Microsoft 365
+
+PAAS (Platform as a Service): Provides a virtual platform to create custom software, allowing users to focus on building, deploying, and testing without managing the underlying infrastructure.
+
+Example: Azure App Service
+
+Benefits of Cloud Computing:
+Scalability: Easily scale resources up or down based on demand, ensuring optimal performance.
+
+Example: Spotify
+
+Accessibility: Access cloud services and data from anywhere with an internet connection.
+
+Improved Performance: Use high-performance computing resources and tools like CDN (Content Delivery Network) for improved performance.
+
+Example: OneDrive, Gmail, Google Drive
+
+Maintenance: Azure handles all infrastructure updates and maintenance.
+
+Challenges in Cloud Adoption (SWOT Analysis):
+Strengths:
+
+Scalability: Cloud resources can easily scale based on demand.
+
+Cost Effectiveness: Reduces costs and leads to significant savings.
+
+Weaknesses:
+
+Dependence on Internet Connectivity: Reliable internet access is required, and disruptions can lead to service downtime.
+
+Data Security and Privacy Concerns: Storing sensitive data offsite raises concerns.
+
+Opportunities:
+
+Growing Market Demand: Increasing reliance on cloud computing by businesses.
+
+Emergence of New Technologies: Innovations like AI, ML, IoT can be integrated with cloud services.
+
+Threats:
+
+Intense Competition: The cloud computing market is highly competitive.
+
+Regulatory Changes: Changes in data protection and privacy regulations can impact cloud services.
+
+On-Premises vs. Cloud:
+On-Premises (Private Cloud): Located within a company's own facilities, with no involvement from a cloud service provider.
+
+Customer Manages:
+
+Data and Access
+
+Applications
+
+Runtime
+
+Operating System
+
+Virtual Machine
+
+Compute
+
+Networking
+
+Storage
+
+Service Models:
+Infrastructure as a Service (IAAS):
+
+Customer Manages: Data and Access, Applications, Runtime, Operating System, Virtual Machine
+
+Provider Manages: Compute, Networking, Storage
+
+Platform as a Service (PAAS):
+
+Customer Manages: Data and Access, Applications
+
+Provider Manages: Runtime, Operating System, Virtual Machine, Compute, Networking, Storage
+
+Software as a Service (SAAS):
+
+Customer Manages: Data and Access
+
+Provider Manages: Applications, Runtime, Operating System, Virtual Machine, Compute, Networking, Storage
+
+Physical Infrastructure:
+Datacenters: Contain servers, storage devices, and networking equipment. Azure has datacenters worldwide, but they are not directly accessible.
+
+Regions: Azure organizes datacenters into geographic regions.
+
+Factors to Consider: Data privacy, speed, service availability.
+
+Examples: US cloud, China cloud.
+
+Availability Zones: Subdivisions within regions, each with independent power sources, cooling systems, and dedicated network infrastructure.
+
+Core Architectural Components of Azure:
+Azure Regions: Geographic groupings of datacenters.
+
+Example: US cloud, China cloud.
+
+Azure Sovereign Regions: Isolated regions not managed by Microsoft, restricted to certain customers.
+
+Example: US, Germany, China.
+
+Azure Resources: Components within an Azure tenant.
+
+Example: Virtual Machines (VM).
+
+Azure Data Centers: Located worldwide but not directly accessible.
+
+Example: North Central US, Japan West.
+
+Azure Subscription: Provides access to deploy and consume Azure resources. Required for every Azure account.
+
+Types: Free, Pay-as-you-go.
+
+Azure Policies: Restrict role-based access control (RBAC) at group or sub-level.
+
